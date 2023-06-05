@@ -1,0 +1,59 @@
+a) Para o algoritmo rodando nas cinco primeiras CPUs:
+
+Tempo necessário para resolver cada requisição de trabalho: 10 ms (ou 0,01 s)
+Requisições por segundo sem operação de disco: 1 / 0,01 = 100 requisições por segundo
+Requisições por segundo com operação de disco: 1 / (0,01 + 0,03) = 1 / 0,04 = 25 requisições por segundo
+Para o algoritmo rodando nas cinco últimas CPUs:
+
+Tempo necessário para resolver cada requisição de trabalho: 15 ms (ou 0,015 s)
+Requisições por segundo sem operação de disco: 1 / 0,015 = 66,67 requisições por segundo
+Requisições por segundo com operação de disco: 1 / (0,015 + 0,045) = 1 / 0,06 = 16,67 requisições por segundo
+b) Para as cinco primeiras CPUs em conjunto, considerando apenas as requisições sem operação de disco: 100 requisições por segundo * 5 CPUs = 500 requisições por segundo
+
+c) Para as cinco últimas CPUs em conjunto, considerando apenas as requisições sem operação de disco: 66,67 requisições por segundo * 5 CPUs = 333,33 requisições por segundo
+
+d) Para calcular o total de requisições por segundo, somamos as respostas de b) e c):
+Total de requisições por segundo = 500 requisições por segundo + 333,33 requisições por segundo = 833,33 requisições por segundo
+
+Portanto, o servidor é capaz de atender aproximadamente 833 requisições por segundo.
+
+Especificações do Assistente Virtual:
+
+Mensagem de boas-vindas:
+Olá! Bem-vindo ao nosso assistente virtual do agronegócio. Como posso ajudá-lo hoje?
+Resposta padrão:
+Desculpe, não entendi. Você pode reformular sua pergunta?
+
+Fluxos de conversação (continuação):
+
+Segmento 1: Identificação da cultura (continuação)
+
+Opção 1: "Qual é a cultura principal que você deseja identificar?"
+Resposta: "Para identificar a cultura principal de uma área, você pode fornecer as coordenadas geográficas ou o ID da imagem capturada pelo drone. Assim, podemos analisar as características da vegetação e determinar a cultura predominante."
+Opção 2: "Como posso determinar a cultura de uma determinada área?"
+Resposta: "Para determinar a cultura de uma área específica, você pode fornecer as coordenadas geográficas ou o ID da imagem capturada pelo drone. Com base nessas informações, podemos realizar uma análise da vegetação e identificar a cultura predominante."
+Segmento 2: Monitoramento de pragas e doenças (continuação)
+
+Opção 1: "Como identificar pragas e doenças nas plantações?"
+Resposta: "Para identificar pragas e doenças nas plantações, utilizamos algoritmos de processamento de imagens que analisam as características das plantas e identificam possíveis sinais de infestação ou doenças. As imagens capturadas pelos drones são enviadas para nossa IA generativa, que realiza essa análise e fornece recomendações para o manejo adequado."
+Opção 2: "Quais são os principais sinais de infestação de pragas ou doenças?"
+Resposta: "Os principais sinais de infestação de pragas ou doenças incluem manchas nas folhas, deformações na estrutura da planta, presença de insetos indesejados, mudança na coloração das folhas, entre outros. Ao identificar esses sinais nas imagens capturadas, podemos agir rapidamente para controlar e tratar o problema, minimizando os danos à cultura."
+Definição da personalidade do assistente:
+
+A personalidade do assistente virtual é amigável, especializada e proativa. Ele está sempre pronto para ajudar os usuários a obterem informações precisas sobre identificação de culturas, monitoramento de pragas e doenças, e outras questões relacionadas ao agronegócio. Ele busca oferecer respostas claras e soluções eficientes para aumentar a produtividade no campo.
+
+Para garantir a proteção adequada do sistema operacional, é necessário proteger as instruções que podem causar danos ao sistema ou violar a integridade dos dados. Analisando a lista de instruções fornecida, o conjunto mínimo de instruções que devem ser protegidas inclui:
+
+(b) Mudar para a modalidade de núcleo (kernel):
+Essa instrução permite a transição do modo usuário para o modo núcleo (kernel) do sistema operacional. A execução de instruções no modo núcleo dá ao usuário acesso a recursos e funções privilegiadas, como a manipulação direta de recursos do sistema. Portanto, é importante proteger essa instrução para evitar que usuários não autorizados acessem ou modifiquem áreas críticas do sistema.
+
+(c) Ler diretamente do disco rígido:
+Essa instrução permite a leitura direta de dados do disco rígido. Ao proteger essa instrução, evita-se que usuários não autorizados acessem ou leiam dados sensíveis ou críticos do sistema armazenados no disco rígido.
+
+(d) Escrever diretamente no disco rígido:
+Essa instrução permite a escrita direta de dados no disco rígido. Proteger essa instrução é essencial para evitar a modificação não autorizada ou a sobrescrita de dados importantes no disco rígido. Isso ajuda a preservar a integridade dos dados e evitar possíveis danos ou perda de informações.
+
+(a) Mudar para a modalidade de usuário:
+Essa instrução permite a transição do modo núcleo (kernel) para o modo usuário. Embora essa instrução possa ser considerada potencialmente arriscada, a proteção dessa instrução não é estritamente necessária, pois normalmente é esperado que os usuários possam alternar entre os modos de usuário e núcleo. Além disso, restringir essa instrução pode limitar a flexibilidade do usuário e tornar o sistema operacional menos conveniente de usar.
+
+Portanto, o conjunto mínimo de instruções que devem ser protegidas inclui (b) Mudar para a modalidade de núcleo (kernel), (c) Ler diretamente do disco rígido e (d) Escrever diretamente no disco rígido. Essas instruções são essenciais para garantir a segurança, a integridade dos dados e a proteção adequada do sistema operacional.
