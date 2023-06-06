@@ -1,5 +1,7 @@
 # Global-Solutions
 Global Solutions - Primeiro Semestre
+Gean Lucas Teco Pfefer - RM 88138
+Matheus Cavalcanti Rebola - RM 81030
 
 
 Desafio 
