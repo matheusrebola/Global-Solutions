@@ -54,8 +54,6 @@ public class Telemetria {
             this.tempo = dados.tempo();
         }
     }
-
-
     public void excluir() {
         this.ativo = false;
     }
