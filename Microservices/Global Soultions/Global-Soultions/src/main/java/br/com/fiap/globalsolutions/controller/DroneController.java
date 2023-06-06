@@ -10,7 +10,7 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/drones")
+@RequestMapping("/drone")
 public class DroneController {
 
     @Autowired
@@ -29,9 +29,15 @@ public class DroneController {
 
     @PutMapping
     @Transactional
-    public void atualizar(@RequestBody @Valid DadosAtualizacaoDrone dados){
+    public void atualizarDados(@RequestBody @Valid DadosAtualizacaoDrone dados){
         var drone = droneRepository.getReferenceById(dados.codigoDrone());
         drone.atualizarInformacoes(dados);
+    }
+    @PutMapping
+    @Transactional
+    public void atualizarVoo(@RequestBody @Valid DadosAtualizacaoDrone dados){
+        var drone = droneRepository.getReferenceById(dados.codigoDrone());
+        drone.relatarVoo(dados);
     }
     @DeleteMapping("/{codigoDrone}")
     @Transactional
