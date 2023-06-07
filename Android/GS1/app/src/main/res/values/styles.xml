@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bed549</color>
+    <color name="colorPrimaryDark">#8db83f</color>
+    <color name="colorAccent">#e6ed6c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="inputLogin">#8db83f</color>
+
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+</resources>
